@@ -1,0 +1,195 @@
+body {
+    min-width: 320px;
+    min-height: 320px;
+    height: 100dvh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(150deg,#a3D5FF50, #FF7B7250, #a3D5FF50);
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+p {
+    width: 40%;
+    margin: 2rem auto;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+header {
+    width: 100%;
+    padding-top: 1rem;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    padding-top: 1rem;
+    box-sizing: border-box;
+}
+
+.browser {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.list {
+    width: 30%;
+    margin: .5rem auto;
+    padding: 0;
+    cursor: pointer;
+    transition: width .5s;
+    box-sizing: border-box;
+}
+
+.boton {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: none;
+    display: flex;
+    border: 2px solid #121212;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: .5rem .5rem;
+    transition: padding .5s;
+    box-sizing: border-box;
+}
+
+.boton:hover {
+    transition: padding .5s;
+    padding: .5rem 10rem;
+}
+
+.boton[name=Fiverr]:hover {
+    border: 3px solid #1DBF73;
+    border-radius: 40px;
+    background: #1DBF7350;
+    color: #1DBF73;
+    box-shadow: 0 0 20px #1DBF73;
+}
+
+.boton[name=Github]:hover {
+    border: 3px solid #ffffff;
+    border-radius: 40px;
+    background: #ffffff50;
+    color: #ffffff;
+    box-shadow: 0 0 20px #ffffff;
+}
+
+.boton[name=Instagram]:hover {
+    border: 3px solid #f58529;
+    border-radius: 40px;
+    background: linear-gradient(45deg, #f5852950, #dd2a7b50, #8134af50, #515bd450);
+    color: #dd2a7b;
+    box-shadow: 0 0 20px #dd2a7b;
+}
+
+.boton[name=Linkedin]:hover {
+    border: 3px solid #0A66C2;
+    border-radius: 40px;
+    background: #0A66C250;
+    color: #0f76b2;
+    box-shadow: 0 0 20px #0A66C2;
+}
+
+.boton[name=Portafolio]:hover {
+    border: 3px solid #ffffff;
+    border-radius: 40px;
+    background: #ffffff50;
+    color: #ffffff;
+    box-shadow: 0 0 20px #ffffff;
+}
+
+.boton[name=Twitch]:hover {
+    border: 3px solid #A970FF;
+    border-radius: 40px;
+    background: #A970FF50;
+    color: #A970FF;
+    box-shadow: 0 0 20px #ffffff;
+}
+
+.list:hover {
+    width: 35%;
+    height: 5em;
+    transition: width .5s;
+}
+
+.list:has(.boton:hover) .textlinks {
+    font-size: 2em;
+}
+
+.list:has(.boton:hover) .link {
+    width: 4em;
+    height: 4em;
+}
+
+.link {
+    width: 3em;
+    height: 3em;
+
+    display: inline-block;
+
+    mask-position: center;
+    mask-size: contain;
+    mask-repeat: no-repeat;
+
+    -webkit-mask-position: center;
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+}
+
+.textlinks {
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.link[name=Fiverr] {
+    mask-image: url('/images/fiverr.svg');
+    -webkit-mask-image: url('./images/fiverr.svg');
+    background: #1DBF73;
+}
+
+.link[name=Github] {
+    mask-image: url('./images/github.svg');
+    -webkit-mask-image: url('./images/github.svg');
+    background: #ffffff;
+}
+
+.link[name=Instagram] {
+    mask-image: url('./images/Instagram.svg');
+    -webkit-mask-image: url('./images/Instagram.svg');
+    background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+}
+
+.link[name=Linkedin] {
+    mask-image: url('./images/linkedin.svg');
+    -webkit-mask-image: url('./images/linkedin.svg');
+    background: #0A66C2;
+}
+
+.link[name=Portafolio] {
+    mask-image: url('./images/Portfolio.svg');
+    -webkit-mask-image: url('./images/Portfolio.svg');
+    background: #ffffff;
+}
+
+.link[name=Twitch] {
+    mask-image: url('./images/twitch.svg');
+    -webkit-mask-image: url('./images/twitch.svg');
+    background: #A970FF;
+}

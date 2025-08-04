@@ -1,0 +1,55 @@
+1. Moderna y Profesional
+#F4F6F8 (Fondo)
+
+#2F80ED (Primario)
+
+#56CCF2 (Secundario)
+
+#333333 (Texto)
+
+#27AE60 (Acento)
+
+2. Suave y Clara (Estilo Pastel)
+#FAFAFA (Fondo)
+
+#A3D5FF (Primario)
+
+#FFE3E3 (Secundario)
+
+#4A4A4A (Texto)
+
+#C3FBD8 (Acento)
+
+3. Oscura Elegante
+#121212 (Fondo)
+
+#1F1F1F (Primario)
+
+#292929 (Secundario)
+
+#E0E0E0 (Texto)
+
+#BB86FC (Acento)
+
+4. Tech / Futurista
+#0D1117 (Fondo)
+
+#58A6FF (Primario)
+
+#1F6FEB (Secundario)
+
+#C9D1D9 (Texto)
+
+#FF7B72 (Acento)
+
+5. Orgánica / Natural
+#E8F5E9 (Fondo)
+
+#66BB6A (Primario)
+
+#A5D6A7 (Secundario)
+
+#2E7D32 (Texto)
+
+#FFCA28 (Acento)
+

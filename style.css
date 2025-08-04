@@ -9,7 +9,7 @@ body {
     box-sizing: border-box;
 }
 
-h1, h2 {
+h1 {
     margin: 0 auto;
     text-align: center;
 }
@@ -192,4 +192,26 @@ main {
     mask-image: url('./images/twitch.svg');
     -webkit-mask-image: url('./images/twitch.svg');
     background: #A970FF;
+}
+
+@media (max-width: 900px) {
+    p {
+        width: 60%;
+        font-size: 1.2em;
+    }
+
+    .list {
+        width: 60%;
+    }
+}
+
+@media (max-width: 600px) {
+    p {
+        width: 60%;
+        font-size: .8em;
+    }
+
+    .list {
+        width: 70%;
+    }
 }

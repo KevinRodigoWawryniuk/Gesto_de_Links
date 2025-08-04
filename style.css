@@ -45,7 +45,7 @@ main {
 }
 
 .list {
-    width: 30%;
+    width: 40%;
     margin: .5rem auto;
     padding: 0;
     cursor: pointer;
@@ -71,7 +71,7 @@ main {
 
 .boton:hover {
     transition: padding .5s;
-    padding: .5rem 10rem;
+    padding: .5rem 8rem;
 }
 
 .boton[name=Fiverr]:hover {
@@ -123,7 +123,7 @@ main {
 }
 
 .list:hover {
-    width: 35%;
+    width: 45%;
     height: 5em;
     transition: width .5s;
 }
@@ -194,14 +194,24 @@ main {
     background: #A970FF;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1300px) {
     p {
         width: 60%;
-        font-size: 1.2em;
+        font-size: .8em;
     }
 
     .list {
-        width: 60%;
+        width: 70%;
+        margin: .5rem auto;
+    }
+
+    .list:hover {
+        width: 80%;
+        height: 4em;
+    }
+
+    .boton:hover {
+        padding: .5rem 8rem;
     }
 }
 
@@ -213,5 +223,15 @@ main {
 
     .list {
         width: 70%;
+        margin: .5rem auto;
+    }
+
+    .list:hover {
+        width: 80%;
+        height: 4em;
+    }
+
+    .boton:hover {
+        padding: .5rem 2rem;
     }
 }

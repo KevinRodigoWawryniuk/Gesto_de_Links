@@ -18,5 +18,8 @@ function ClickLink(params) {
         case "Twitch":
             window.open('https://www.twitch.tv/devplayerone');
             break;
+        case "Discord":
+            window.open('https://discord.com/channels/1169413135233470494/1169413135233470497')
+            break;
     }
 };

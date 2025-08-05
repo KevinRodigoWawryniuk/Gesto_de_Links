@@ -6,6 +6,8 @@ body {
     display: flex;
     flex-direction: column;
     background: linear-gradient(150deg, #a3D5FF50, #FF7B7250, #a3D5FF50);
+    background-repeat: no-repeat;
+    overflow: scroll;
     box-sizing: border-box;
 }
 
@@ -29,7 +31,7 @@ header {
 
 main {
     width: 100%;
-    padding-top: 1rem;
+    padding-top: .5rem;
     box-sizing: border-box;
 }
 
@@ -122,6 +124,15 @@ main {
     box-shadow: 0 0 20px #ffffff;
 }
 
+.boton[name=Discord]:hover {
+    border: 3px solid #f1f1f1;
+    border-radius: 40px;
+    background: #5865F150;
+    color: #5865F1;
+    box-shadow: 0 0 20px #5865F1;
+}
+
+
 .list:hover {
     width: 45%;
     height: 5em;
@@ -192,6 +203,12 @@ main {
     mask-image: url('./images/twitch.svg');
     -webkit-mask-image: url('./images/twitch.svg');
     background: #A970FF;
+}
+
+.link[name=Discord] {
+    mask-image: url('./images/Discord.svg');
+    -webkit-mask-image: url('./images/Discord.svg');
+    background: #5865F1;
 }
 
 @media (max-width: 1300px) {

@@ -218,8 +218,8 @@ main {
 }
 
 .link[name=Youtube] {
-    mask-image: url('/images/youtube.svg');
-    -webkit-mask-image: url('/images/youtube.svg');
+    mask-image: url('./images/youtube.svg');
+    -webkit-mask-image: url('./images/youtube.svg');
     background: #FF002E;
 }
 

@@ -131,6 +131,13 @@ main {
     box-shadow: 0 0 20px #5865F1;
 }
 
+.boton[name=Youtube]:hover {
+    border: 3px solid #FF002E;
+    border-radius: 40px;
+    background: #FF002E50;
+    color: #FF002E;
+    box-shadow: 0 0 20px #FF002E;
+}
 
 .list:hover {
     width: 45%;
@@ -208,6 +215,12 @@ main {
     mask-image: url('./images/Discord.svg');
     -webkit-mask-image: url('./images/Discord.svg');
     background: #5865F1;
+}
+
+.link[name=Youtube] {
+    mask-image: url('/images/youtube.svg');
+    -webkit-mask-image: url('/images/youtube.svg');
+    background: #FF002E;
 }
 
 @media (max-width: 1300px) {

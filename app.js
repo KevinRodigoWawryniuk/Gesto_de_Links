@@ -21,5 +21,8 @@ function ClickLink(params) {
         case "Discord":
             window.open('https://discord.com/channels/1169413135233470494/1169413135233470497')
             break;
+        case "Youtube":
+            window.open('https://www.youtube.com/@devplayerone');
+            break;
     }
 };
